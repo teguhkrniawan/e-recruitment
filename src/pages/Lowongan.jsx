@@ -27,7 +27,7 @@ const Lowongan = () => {
                                 {/* Table */}
                                 <div className="w-[80%] mt-5 px-3 py-3">
                                     <div className="bg-gray-100 border-b border-gray-500 px-3 py-3 text-center">
-                                        <h3 className='font-bold'>HR Supervisor</h3>
+                                        <h3 className='font-bold hover:text-[#9e1e21] cursor-pointer'>HR Supervisor</h3>
                                         <div className="flex gap-[3px] justify-center mt-3">
                                             <p className='bg-[#9e1e21] py-1 px-3 rounded-full text-white text-xs'>S1</p>
                                             <p className='bg-[#9e1e21] py-1 px-3 rounded-full text-white text-xs'>Contract</p>
