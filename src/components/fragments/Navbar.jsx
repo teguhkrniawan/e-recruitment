@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ButtonCustom from '../elements/ButtonCustom'
 
 const Navbar = () => {
     return (
@@ -14,12 +15,14 @@ const Navbar = () => {
                 <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'>
                     <Link to={'/lowongan'}>LOWONGAN</Link>
                 </li>
-                <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'><a href="#">PENGUMUMAN</a></li>
+                <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'>
+                    <Link to={'/pengumuman'}>PENGUMUMAN</Link>
+                </li>
                 <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'><a href="#">BANTUAN</a></li>
                 <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'><a href="#">HUBUNGI KAMI</a></li>
             </ul>
             <div>
-                <button className='bg-[#9e1e21] text-sm text-white px-4 py-2 rounded-full hover-bg-[] mt-3'>Sign In</button>
+                <ButtonCustom text={'Sign In'} />
             </div>
         </nav>
 

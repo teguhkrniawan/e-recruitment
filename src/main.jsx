@@ -6,6 +6,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import HomePage from './pages/HomePage.jsx'
 import Lowongan from './pages/Lowongan.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
+import { Provider } from 'react-redux'
+import store from './redux/store.js'
+import PengumumanPage from './pages/PengumumanPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,11 +19,17 @@ const router = createBrowserRouter([
   {
     path: '/lowongan',
     element: <Lowongan />
+  },
+  {
+    path: '/pengumuman',
+    element: <PengumumanPage />
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <Provider store={store}>
+      <RouterProvider router={router}/>
+    </Provider>
   </React.StrictMode>,
 )
