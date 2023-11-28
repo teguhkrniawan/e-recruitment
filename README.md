@@ -8,3 +8,6 @@ from https://ojk.experd.com/
 
 2. Lowongan Page
 ![Logo](./screenshoots/lowongan.png)
+
+3. Pengumuman
+![Logo](./screenshoots/pengumuman.png)
