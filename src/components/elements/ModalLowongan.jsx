@@ -17,7 +17,7 @@ const ModalLowongan = (props) => {
 
     return (
         <div className='fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center'>
-            <div className="bg-white p-5 rounded w-[60vw] my-[30px]">
+            <div className="bg-white p-5 rounded w-[60vw] mb-[30px] mt-[80px]">
                 <div className="flex justify-between">
                     <h4 className='font-bold text-[#9e1e21]'>Digital Marketing</h4>
                     <div className='cursor-pointer' onClick={(e) => dispatch(changeModal(false))}>X</div>

@@ -10,7 +10,7 @@ const PengumumanPage = () => {
                 {/* Navbar */}
                 <Navbar />
 
-                <section className="h-100 mt-[60px]">
+                <section className="mt-[60px]">
                     <div className="container mx-auto px-[80px] py-[20px]">
                         {/* Breadcump */}
                         <Breadcumps text={'Pengumuman'} />
@@ -19,7 +19,7 @@ const PengumumanPage = () => {
                         <div className="max-w-full w-full sm:flex sm:max-w-full flex-col mt-5 py-5 px-5 shadow-b shadow-e shadow-md">
                             <h3>Pengumuman</h3>
 
-                            <div className="flex flex-col">
+                            <div className="flex flex-col h-screen">
                                 <p className='text-xs mt-5 text-gray-500'>
                                     Otoritas Jasa Keuangan (OJK) berkerja sama dengan Teguh Kurniawan untuk kegiatan Rekrutmen Calon Tenaga Kerja PKWT 2023.
                                     Adapun kegiatan rekrutmen dilakukan secara <b>Online</b> dalam beberapa tahap sebagai berikut :

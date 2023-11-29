@@ -9,6 +9,7 @@ import ErrorPage from './pages/ErrorPage.jsx'
 import { Provider } from 'react-redux'
 import store from './redux/store.js'
 import PengumumanPage from './pages/PengumumanPage.jsx'
+import ContactPage from './pages/ContactPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/pengumuman',
     element: <PengumumanPage />
+  },
+  {
+    path: '/contact',
+    element: <ContactPage />
   }
 ])
 
