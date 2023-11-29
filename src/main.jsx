@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store.js'
 import PengumumanPage from './pages/PengumumanPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
+import Bantuan from './pages/Bantuan.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,11 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <ContactPage />
-  }
+  },
+  {
+    path: '/bantuan',
+    element: <Bantuan />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

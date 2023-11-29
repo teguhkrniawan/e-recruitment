@@ -18,7 +18,9 @@ const Navbar = () => {
                 <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'>
                     <Link to={'/pengumuman'}>PENGUMUMAN</Link>
                 </li>
-                <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'><a href="#">BANTUAN</a></li>
+                <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'>
+                    <Link to={'/bantuan'}>BANTUAN</Link>
+                </li>
                 <li className='hover:bg-[#9e1e21] hover:text-white py-5 px-2'>
                     <Link to={'/contact'}>HUBUNGI KAMI</Link>
                 </li>
