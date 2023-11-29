@@ -14,3 +14,6 @@ from https://ojk.experd.com/
 
 4. Hubungi Kami
 ![Logo](./screenshoots/hubungi-kami.png)
+
+5. Bantuan 
+![Logo](./screenshoots/faq.png)
