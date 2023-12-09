@@ -11,6 +11,8 @@ import store from './redux/store.js'
 import PengumumanPage from './pages/PengumumanPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import Bantuan from './pages/Bantuan.jsx'
+import SignIn from './pages/SignIn.jsx'
+import SignUp from './pages/SignUp.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
     path: '/bantuan',
     element: <Bantuan />
   },
+  {
+    path: '/signin',
+    element: <SignIn />
+  },
+  {
+    path: '/signup',
+    element: <SignUp />
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

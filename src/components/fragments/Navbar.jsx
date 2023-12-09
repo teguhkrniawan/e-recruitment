@@ -26,7 +26,9 @@ const Navbar = () => {
                 </li>
             </ul>
             <div>
-                <ButtonCustom text={'Sign In'} />
+                <Link to={'/signin'}>
+                    <ButtonCustom text={'Sign In'} />
+                </Link>
             </div>
         </nav>
 

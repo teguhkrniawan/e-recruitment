@@ -14,7 +14,7 @@ const faqData = [
         question: "Apakah ada ketentuan penggunaan browser khusus dalam test?",
         answer: "Agar tampilan situs-web dapat lebih optimal, disarankan untuk menggunakan browser yang sudah terupdate dengan versi minimal Google Chrome versi 57 dan Mozila Firefox versi 52."
     },
-   
+    
 ]
 
 export default faqData
