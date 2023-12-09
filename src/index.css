@@ -42,3 +42,10 @@
     left: 0;
     background-color: rgba(0,0,0, .7);
 }
+
+.captcha-text {
+    text-shadow: 0 0 5px #a9a9a9;
+    letter-spacing: 20px;
+    user-select: none;
+    font-family: 'Noto Serif', serif;
+}
